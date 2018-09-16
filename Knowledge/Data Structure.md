@@ -27,3 +27,5 @@ deleteHighestPriority() | O(Logn) | O(n) | O(Logn)
 ### Binomial Heap
 ### Fibonacci Heap
 ### Paring Heap
+### LinkedHashMap
+### TreeMap
