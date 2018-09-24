@@ -16,3 +16,8 @@
 
 ## Median of two sorted arrays
 * https://www.lintcode.com/problem/median-of-two-sorted-arrays/description
+
+## 249. Count of Smaller Number before itself
+https://www.lintcode.com/problem/count-of-smaller-number-before-itself/description
+
+https://www.jiuzhang.com/solution/implement-three-stacks-by-single-array/
