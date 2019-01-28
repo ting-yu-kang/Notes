@@ -15,6 +15,7 @@ $$
 a^{\varphi(n)} \equiv 1\ (\bmod\ n)
 $$
 if p is a prime, then
+
 $$
 a^{p-1} \equiv 1\ (\bmod\ p)
 $$
