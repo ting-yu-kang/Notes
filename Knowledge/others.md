@@ -42,3 +42,25 @@ A set of processes are waiting for each other in circular form.
 ## GB vs GiB
 * 1GB = 10^9 = 1,000,000,000 bytes
 * 1GiB = 2^30 = 1,073,741,824 bytes
+
+## Minimum Spanning Tree
+
+### Kruskal's Algorithm
+* Sort Edges: `O(|E|log|E|)`
+* Connect different groups of vertices: `O(|V|log|V|)`
+    * `|V|`: loop through all vertices
+    * `log|V|`: union find
+* Time complexity: `O(|V|log|V|) + O(|E|log|E|) = O(|E|log|E|)`
+
+### Prime's Algorithm
+* Min-heap for vertices by distance: `O(|V|log|V|)`
+    * `|V|`: all all vertices
+    * `log|V|`: heapify
+* Update the distance of vertices: `O(|E|log|V|)`
+    * `|E|`: loop through all edges
+    * `log|V|`: heapify
+* Time complexity: `O(|V|log|V|) + O(|E|log|V|) = O(|E|log|V|)`
+
+## 25 horses
+* [link](https://hxraid.iteye.com/blog/662643?fbclid=IwAR0KwZ4EH-0xjlTsRQ985rgOuhbcG5w0nRUVr9eZF2kLqkYR3KzdcPdFKtY)
+* From 10 -> 8 or 9
