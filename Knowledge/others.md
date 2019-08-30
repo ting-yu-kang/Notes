@@ -64,3 +64,13 @@ A set of processes are waiting for each other in circular form.
 ## 25 horses
 * [link](https://hxraid.iteye.com/blog/662643?fbclid=IwAR0KwZ4EH-0xjlTsRQ985rgOuhbcG5w0nRUVr9eZF2kLqkYR3KzdcPdFKtY)
 * From 10 -> 8 or 9
+
+## Double
+* `Double.MIN_VALUE` is positive!
+* Use `-Double.MAX_VALUE` instead.
+
+## 三步翻轉法
+* String rotate
+    * rotate left
+    * rotate right
+    * rotate all
