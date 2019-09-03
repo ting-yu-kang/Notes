@@ -74,3 +74,8 @@ A set of processes are waiting for each other in circular form.
     * rotate left
     * rotate right
     * rotate all
+
+## Open hashing vs close hashing
+* In Open Hashing each cell in the array points to a list containg the collisions. The hashing has produced the same index for all items in the linked list.
+
+* In Closed Hashing (open addressing) you use only one array for everything. You store the collisions in the same array. The trick is to use some smart way to jump from collision to collision unitl you find what you want. And do this in a reproducible / deterministic way.
