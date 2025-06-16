@@ -18,3 +18,7 @@ s = s.strip()
 * isalnum() → True for letters or digits
 * isalpha() → True for letters only
 * isdigit() → True for digits only
+
+### is not vs !=
+* Use != when you want to compare contents (E.g. numbers, strings, lists)
+* Use is not when you want to check identity (E.g. is not None, singleton objects)
