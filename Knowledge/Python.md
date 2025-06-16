@@ -13,3 +13,8 @@ s = s.strip()
 ### Max Number
 * Float: `math.inf` (`float('inf')`), `-math.inf`, (`float('-inf')`)
 * Integer: `sys.maxsize`, `-sys.maxsize`
+
+### Check character
+* isalnum() → True for letters or digits
+* isalpha() → True for letters only
+* isdigit() → True for digits only
