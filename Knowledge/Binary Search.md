@@ -7,7 +7,7 @@ for example:
 `[1, 2, 3, 3, 3, 4, 5, 6], target = 3`
 
 `bisect_left` should return idx = 2
-`rbsecbisect_rightt` should return idx = 5
+`bisect_right` should return idx = 5
 
 in this case in binary search we can see:
 ```
