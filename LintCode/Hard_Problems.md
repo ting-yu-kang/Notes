@@ -1,6 +1,6 @@
 # Hard Problems
 ## 360. Sliding Window Median
-* [Answer](https://www.lintcode.com/problem/sliding-window-median/description)
+* [Answer](https://www.lintcode.com/problem/sliding-window-median/)
 * [Youtube](https://www.youtube.com/watch?v=kDS6ScZwNnI)
 * 2 Priority Queue or Insertion Sort
 
@@ -15,9 +15,9 @@
 * https://www.jiuzhang.com/qa/2099/
 
 ## Median of two sorted arrays
-* https://www.lintcode.com/problem/median-of-two-sorted-arrays/description
+* https://www.lintcode.com/problem/median-of-two-sorted-arrays/
 
 ## 249. Count of Smaller Number before itself
-https://www.lintcode.com/problem/count-of-smaller-number-before-itself/description
+https://www.lintcode.com/problem/count-of-smaller-number-before-itself/
 
 https://www.jiuzhang.com/solution/implement-three-stacks-by-single-array/
