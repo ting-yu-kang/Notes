@@ -22,3 +22,12 @@ s = s.strip()
 ### is not vs !=
 * Use != when you want to compare contents (E.g. numbers, strings, lists)
 * Use is not when you want to check identity (E.g. is not None, singleton objects)
+
+### characters
+* s.isalnum() # alphanumeric
+* s.isalpha() # alphabet
+* s.islower()
+* s.isupper()
+* s.isdigit()
+* s.lower() # to lowercase
+* s.upper() # to uppercase
