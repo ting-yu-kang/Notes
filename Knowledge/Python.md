@@ -31,3 +31,45 @@ s = s.strip()
 * s.isdigit()
 * s.lower() # to lowercase
 * s.upper() # to uppercase
+
+### Time
+```python
+from datetime import datetime
+
+date_str = "2025-09-07 14:30:00"
+
+# 1. Parse string to datetime (specify format)
+dt = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
+
+# 2. Convert to timestamp (float, seconds since epoch)
+ts = dt.timestamp()
+
+print(ts)
+```
+
+### Random
+* random.random(): Returns a random floating-point number in the range [0.0, 1.0).
+* random.randint(a, b): Returns a random integer N such that a <= N <= b.
+* random.randrange(start, stop, step): Returns a randomly selected element from range(start, stop, step). The stop value is not included.
+* random.choice(sequence): Returns a random element from a non-empty sequence (e.g., a list or tuple).
+* random.shuffle(x): Shuffles the elements of a sequence x in place.
+* random.seed(a=None): Initializes the random number generator. If a is omitted or None, the current system time is used. Setting a specific seed allows for reproducible sequences of "random" numbers.
+
+### File
+```python
+base_dir = os.path.dirname(__file__)  # current dirname
+filepath = os.path.join(base_dir, "myfile.txt")
+
+with open("data.txt", "r") as f:
+    for line in f:
+        line = line.strip()   # remove newline + spaces
+        if not line:          # skip empty lines
+            continue
+        # process the line
+        print(line)
+
+
+with open("output.txt", "w") as f:
+    for line in lines:
+        f.write(line + "\n")
+```
