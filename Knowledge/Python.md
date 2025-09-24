@@ -73,3 +73,58 @@ with open("output.txt", "w") as f:
     for line in lines:
         f.write(line + "\n")
 ```
+
+### Dict and Set
+#### OrderedDict
+```python
+from collections import OrderedDict
+
+# Create an OrderedDict
+od = OrderedDict()
+
+# Move 'banana' to the end
+od.move_to_end('banana')
+
+# Move 'orange' to the beginning
+od.move_to_end('orange', last=False)
+
+# Pop the first inserted item
+first_key, first_val = od.popitem(last=False)
+print(first_key, first_val)  # Output: orange 2
+
+# Pop the last inserted item
+last_key, last_val = od.popitem()
+print(last_key, last_val)    # Output: banana 3
+```
+
+#### SortedDict
+```python
+from sortedcontainers import SortedDict
+
+# Create a SortedDict
+sd = SortedDict()
+
+# Get first and last keys
+print(sd.peekitem(0))   # ('apple', 5)
+print(sd.peekitem(-1))  # ('cherry', 1)
+
+# Get all keys between 'apple' and 'cherry' (inclusive)
+for key in sd.irange('apple', 'cherry'):
+    print(key)
+```
+
+#### SortedSet
+```python
+from sortedcontainers import SortedSet
+
+# Create a SortedSet
+s = SortedSet()
+
+
+# Index-based access (like a sorted list)
+print(s[0])  # Output: 5
+print(s[-1]) # Output: 10
+
+# Get all elements >= 6 and < 11
+subset = s.irange(6, 11, inclusive=(True, False))  # inclusive lower, exclusive upper
+```
