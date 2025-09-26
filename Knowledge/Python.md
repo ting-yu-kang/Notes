@@ -128,3 +128,10 @@ print(s[-1]) # Output: 10
 # Get all elements >= 6 and < 11
 subset = s.irange(6, 11, inclusive=(True, False))  # inclusive lower, exclusive upper
 ```
+
+# threading
+* Lock
+* Semaphore
+* Barrier
+* Event
+* Condition
